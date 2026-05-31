@@ -20,10 +20,10 @@ def analyze_job_market(industry, region, hiring_rate):
         case _:
             industry_name = "Unknown Industry"
 
-    if hiring_rate >= 70:
+    if hiring_rate >= 80:
         demand = "High Demand"
 
-    elif hiring_rate >= 40:
+    elif hiring_rate >= 50:
         demand = "Medium Demand"
 
     else:
