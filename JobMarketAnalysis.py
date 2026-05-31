@@ -16,6 +16,9 @@ def analyze_job_market(industry, region, hiring_rate):
 
         case "finance":
             industry_name = "Finance"
+            
+        case "agriculture":
+            industry_name = "Agriculture"
 
         case _:
             industry_name = "Unknown Industry"
